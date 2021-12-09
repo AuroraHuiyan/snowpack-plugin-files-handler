@@ -1,27 +1,30 @@
 {
-    "name": "@ahs/snowpack-plugin-filestransform-handler",
-    "version": "1.0.0",
-    "description": "A snowpack plugin that can help you process files in the transform lifecycle hooks.",
-    "main": "lib/index.js",
-    "module": "es/index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/AuroraHuiyan/snowpack-plugin-filestransform-handler.git"
-    },
-    "keywords": [
-        "snowpack",
-        "plugin"
-    ],
-    "author": "AuroraHuiyan",
-    "license": "Apache-2.0",
-    "bugs": {
-        "url": "https://github.com/AuroraHuiyan/snowpack-plugin-filestransform-handler/issues"
-    },
-    "homepage": "https://github.com/AuroraHuiyan/snowpack-plugin-filestransform-handler#readme",
-    "publishConfig": {
-        "access": "public"
-    }
+  "name": "@aurora_huiyan/plugin-filestransform-handler",
+  "version": "1.0.0",
+  "description": "A snowpack plugin that can help you process files in the transform lifecycle hooks.",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AuroraHuiyan/snowpack-plugin-filestransform-handler.git"
+  },
+  "keywords": [
+    "snowpack",
+    "plugin"
+  ],
+  "author": "AuroraHuiyan",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/AuroraHuiyan/snowpack-plugin-filestransform-handler/issues"
+  },
+  "homepage": "https://github.com/AuroraHuiyan/snowpack-plugin-filestransform-handler#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "directories": {
+    "lib": "lib"
+  }
 }
