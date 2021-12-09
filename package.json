@@ -21,10 +21,6 @@
         "url": "https://github.com/AuroraHuiyan/snowpack-plugin-filestransform-handler/issues"
     },
     "homepage": "https://github.com/AuroraHuiyan/snowpack-plugin-filestransform-handler#readme",
-    "engines": {
-        "node": ">=14",
-        "npm": ">=6"
-    },
     "publishConfig": {
         "access": "public"
     }
