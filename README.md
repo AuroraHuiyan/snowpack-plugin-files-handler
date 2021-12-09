@@ -1,10 +1,10 @@
-# snowpack-plugin-filehandler
+# snowpack-plugin-files-handler
 A snowpack plugin that can help you process files in the transform lifecycle hooks.
 
 ## Install
 use npm or yarn
-`npm i snowpack-plugin-filehandler --save-dev`
-`yarn add snowpack-plugin-filehandler --dev`
+`npm i snowpack-plugin-files-handler --save-dev`
+`yarn add snowpack-plugin-files-handler --dev`
 
 ## Example to use
 you can use it in snowpack configuration file.
@@ -19,7 +19,7 @@ you can use it in snowpack configuration file.
 export default {
   plugins: [
       [
-          'snowpack-plugin-filehandler',
+          'snowpack-plugin-files-handler',
           {
               opts: [
                   {
