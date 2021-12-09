@@ -23,8 +23,5 @@
   "homepage": "https://github.com/AuroraHuiyan/snowpack-plugin-filestransform-handler#readme",
   "publishConfig": {
     "access": "public"
-  },
-  "directories": {
-    "lib": "lib"
   }
 }
