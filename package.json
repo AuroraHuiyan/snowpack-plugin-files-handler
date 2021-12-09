@@ -1,5 +1,5 @@
 {
-  "name": "@aurora_huiyan/plugin-filestransform-handler",
+  "name": "snowpack-plugin-filehandler",
   "version": "1.0.0",
   "description": "A snowpack plugin that can help you process files in the transform lifecycle hooks.",
   "main": "lib/index.js",
