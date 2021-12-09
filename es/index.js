@@ -19,7 +19,7 @@ export default function (snowpackConfig, pluginOptions) {
     const opts = pluginOptions.opts || [];
     return {
         name: 'snowpack-plugin-filestransform-handler',
-        async transform({filePath, contents}) {
+        async transform({id: filePath, contents}) {
             for (const opt of opts) {
                 const {target = null, handler = null, exact = true} = opt;
                 if (!exact && filePath.includes(target)) {
