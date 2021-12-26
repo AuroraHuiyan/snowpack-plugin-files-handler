@@ -1,6 +1,6 @@
 {
   "name": "snowpack-plugin-files-handler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A snowpack plugin that can help you process files in the transform lifecycle hooks.",
   "main": "lib/index.js",
   "module": "es/index.js",
