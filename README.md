@@ -3,7 +3,9 @@ A snowpack plugin that can help you process files in the transform lifecycle hoo
 
 ## Install
 use npm or yarn
+
 `npm i snowpack-plugin-files-handler --save-dev`
+
 `yarn add snowpack-plugin-files-handler --dev`
 
 ## Example to use

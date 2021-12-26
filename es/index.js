@@ -1,18 +1,12 @@
 import fs from 'fs';
 
 function processFile(path, content) {
-    fs.readFile(path, error => {
-        if (error) {
-            console.error('snowpack-plugin-filestransform-handler Error', error);
-        }
-        else {
-            fs.writeFile(path, content, error => {
-                if (error) {
-                    console.error('snowpack-plugin-filestransform-handler Error', error);
-                }
-            });
-        }
-    });
+    try {
+        fs.writeFileSync(path, content);
+    }
+    catch(e) {
+        console.error('snowpack-plugin-files-handler Error', e);
+    }
 }
 
 export default function (snowpackConfig, pluginOptions) {
